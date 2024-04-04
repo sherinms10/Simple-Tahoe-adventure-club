@@ -1,0 +1,102 @@
+body{
+    overflow-x: hidden;
+    background-image: repeating-linear-gradient(45deg, lightgrey 0px, lightgrey 40px, grey 40px, grey 80px);
+}
+#header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(59, 58, 58);
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#header img{
+    height: 70px;
+    margin-left: 35vh;
+    border: 5px solid white;
+    border-radius: 40px;
+    background-color: white;
+}
+.head{
+    margin-right: 60%;
+    color: white;
+    margin-left: 10px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150%;
+    margin-left: -55%;
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+#navbar li a:hover{
+    color: green;
+}
+.banner{
+    background-image: url("img/black-white-picture-mountains-morning-firs-foreground-33206747.webp");
+    color: white;
+    margin: 15% 35px 25px 18%;
+    height: 35vh;
+    width: 55%;
+    border: 5px solid skyblue;
+    background-size: cover;
+    background-position: top 55% right 0;
+    padding: 0 60px;
+    
+    
+}
+.banner h1{
+    color: white;
+    font-size: 70px;
+    margin-left: 15vh;
+}
+.banner p{
+    color: white;
+    font-size: 20px;
+    margin-left: 40vh;
+    font-family: cursive;
+}
+.container{
+    border: 5px solid skyblue;
+    display: inline-block;
+    margin: 50px 35px 25px 18%;
+    padding: 50px;
+    background-color: white;
+
+}
+.container h1{
+    color: white;
+    background-color: skyblue;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: -10px;
+}
+.container h4{
+    color: grey;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container p{
+    color: black;
+    
+}
+.container a{
+    color: skyblue;
+    text-decoration: none;
+    font-size: 15px;
+}
